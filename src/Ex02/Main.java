@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Circulo circulo = new Circulo();
 
-        System.out.printf("Digite o raio do Circulo: ");
+        System.out.print("Digite o raio do Circulo: ");
         circulo.setRaio(input.nextFloat());
 
         System.out.printf("\n\nArea: %.2f\nPerimetro: %.2f",  circulo.calcularArea(), circulo.calcularPerimetro());
