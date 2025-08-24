@@ -1,3 +1,5 @@
+package Ex01;
+
 import javax.swing.*;
 
 public class Pessoa {
@@ -14,12 +16,5 @@ public class Pessoa {
     }
     public void exibirIdade() {
         System.out.printf("Idade: %d\n", this.idade);
-    }
-
-    public String getNome(){
-        return nome;
-    }
-    public int getIdade(){
-        return idade;
     }
 }
